@@ -20,10 +20,10 @@ null + 3
 +'40' + +'2' + "hillel";
 
 
-Let's break down the expression '40' + '2' + "hillel" step by step:
+//Let's break down the expression '40' + '2' + "hillel" step by step:
 
-+'40': The unary plus (+) before the string '40' converts it to a number, resulting in the numeric value 40.
-+'2': Similarly, the unary plus before the string '2' converts it to a number, resulting in the numeric value 2.
-The addition +'40' + +'2' adds these two numeric values together, resulting in 42.
-Finally, the string "hillel" is concatenated to the numeric result, resulting in the string "42hillel".
-So, the overall result of the expression +'40' + +'2' + "hillel" is the string "42hillel".
+//.+'40': The unary plus (+) before the string '40' converts it to a number, resulting in the numeric value 40.
+//+'2': Similarly, the unary plus before the string '2' converts it to a number, resulting in the numeric value 2.
+//The addition +'40' + +'2' adds these two numeric values together, resulting in 42.
+//Finally, the string "hillel" is concatenated to the numeric result, resulting in the string "42hillel".
+//So, the overall result of the expression +'40' + +'2' + "hillel" is the string "42hillel".
