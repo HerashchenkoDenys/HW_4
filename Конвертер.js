@@ -1,28 +1,28 @@
-// Задані значення
-var unit = 'км'; // Одиниця вимірювання: кілометри
+// значення
+var unit = "км"; // Одиниця вимірювання: кілометри
 var amount = 10; // Кількість
 
-// Змінні для збереження результатів
+// змінні 
 var resultAmount;
 var resultUnit;
 
-// Використовуємо switch для визначення одиниці вимірювання та виконання конвертації
+// визначення одиниці вимірювання та виконання конвертації
 switch (unit) {
-    case 'км':
-        resultAmount = amount * 1000; // Кілометри в метри
-        resultUnit = 'м';
-        break;
-    case 'год':
-        resultAmount = amount * 60; // Години в хвилини
-        resultUnit = 'хв';
-        break;
-    case 'кг':
-        resultAmount = amount * 1000; // Кілограми в грами
-        resultUnit = 'г';
-        break;
-    default:
-        console.log('Невідома одиниця вимірювання');
+  case "км":
+    resultAmount = amount * 1000; // Кілометри в метри
+    resultUnit = "м";
+    break;
+  case "год":
+    resultAmount = amount * 60; // Години в хвилини
+    resultUnit = "хв";
+    break;
+  case "кг":
+    resultAmount = amount * 1000; // Кілограми в грами
+    resultUnit = "г";
+    break;
+  default:
+    console.log("Не відома одиниця виміру");
 }
 
 // Вивід результату
-console.log(amount + ' ' + unit + ' це ' + resultAmount + ' ' + resultUnit);
+console.log(`${amount} ${unit} це ${resultAmount} ${resultUnit}`);
